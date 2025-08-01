@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Gamachu Kulo | MBChB Finalist</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, section, footer {
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #0066cc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🔹 ";
+    }
+    img {
+      vertical-align: middle;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #004999;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   <img src="assets/gama.jpg" alt="Gamachu Kulo Photo" height="80" style="border-radius: 50%; margin-bottom: 1rem;" /> <h1> Gamachu Kulo | MBChB Finalist</h1>
+    <p>🎓 Final-Year Medical Student — <strong>University of Nairobi</strong></p>
+    <p>💻 PLP Software Development Program — July 2025 Cohort</p>
+    <p>🚀 Aspiring HealthTech Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>👤 About Me</h2>
+    <p>
+      Hi! I’m <strong>Gamachu Kulo</strong>, a final-year Bachelor of Medicine and Bachelor of Surgery (MBChB) student at The University of Nairobi.
+      I’m currently enrolled in the <strong>PLP Africa Software Development Program</strong> where I’m developing tech skills to solve real-world health challenges. I am especially passionate about
+      leveraging technology to improve healthcare access and quality in my community.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>💻 Programming Skills</h2>
+    <ul>
+      <li>🌐 HTML & CSS</li>
+      <li>🐍 Python (Basic)</li>
+      <li>🟨 JavaScript (Learning)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>🎓 Education</h2>
+    <ul>
+      <li>
+        <img src="assets/uon-logo.png" alt="University of Nairobi Logo" height="32" />
+        <strong>The University of Nairobi</strong>, MBChB — <em>Final Year</em>
+      </li>
+      <li>
+        <img src="assets/plp-logo.png" alt="PLP Logo" height="32" />
+        <strong>PLP Africa Software Development Program</strong> — July 2025 Cohort
+      </li>
+    </ul>
+    <p><a href="assets/resume.pdf" download>📄 Download My CV</a></p>
+  </section>
+
+  <section id="interests">
+    <h2>🌱 Interests</h2>
+    <ul>
+      <li>🩺 Digital Health & HealthTech</li>
+      <li>🎨 Web Development & UI Design</li>
+      <li>🤖 Artificial Intelligence in Medicine</li>
+      <li>🌍 Community-Centered Tech Innovation</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>🛠️ Projects</h2>
+    <p>
+      Currently building hands-on skills through the PLP program.  
+      Portfolio-ready projects will be shared soon—stay tuned! ⏳
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>✉️ Contact Me</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">📤 Send</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Gamachu Kulo — Built for PLP July 2025 Hackathon 🚀
+  </footer>
+
+</body>
+</html>

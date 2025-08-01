@@ -1,0 +1,120 @@
+/* ===== Global Styles ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem 1rem;
+}
+
+header, section, footer {
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+h1, h2 {
+  color: #004c99;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: "✅ ";
+  margin-right: 0.5rem;
+  color: #007acc;
+}
+
+/* ===== Link Styling ===== */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Form Styling ===== */
+form {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #005fa3;
+}
+
+/* ===== Section Spacing ===== */
+section {
+  margin-bottom: 2rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
