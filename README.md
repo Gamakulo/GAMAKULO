@@ -7,7 +7,7 @@ Welcome to my portfolio! I'm a final-year Bachelor of Medicine and Bachelor of S
 ## 🌐 Live Portfolio Website
 
 🔗 **View My Portfolio Live Here**:  
-👉 [https://gamakulo.github.io/GAMAKULO-portfolio/](https://gamakulo.github.io/GAMAKULO/))
+👉 [https://gamakulo.github.io/GAMAKULO/](https://gamakulo.github.io/GAMAKULO/)
 
 ---
 
@@ -39,6 +39,7 @@ Welcome to my portfolio! I'm a final-year Bachelor of Medicine and Bachelor of S
 
 - ✅ **Portfolio Website**: Built with HTML, CSS, and deployed via GitHub Pages
 - 📄 [Download My Resume](https://gamakulo.github.io/GAMAKULO-portfolio/assets/resume.pdf)
+
 
 ---
 
