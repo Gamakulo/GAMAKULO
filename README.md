@@ -32,13 +32,13 @@ Welcome to my portfolio! I'm a final-year Bachelor of Medicine and Bachelor of S
 
 - **Bachelor of Medicine and Bachelor of Surgery (MBChB)** — University of Nairobi  
 - **Power Learn Project (PLP) Software Development Program** — July 2025 Cohort
+- - 📄 [Download My Resume](assets/resume.pdf)
 
 ---
 
 ## 🛠️ Projects
 
 - ✅ **Portfolio Website**: Built with HTML, CSS, and deployed via GitHub Pages
-- 📄 [Download My Resume](assets/resume.pdf)
 
 ---
 
